@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    body{
+        margin:0;
+    }
+
+    #gridParent{
+       width:100vw;
+       height: 100vh;
+        grid:100px 250px 200px / 100px 200px 200px;
+       display: grid;
+   
+    }
+
+    .box{
+        border:1px solid;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div id="gridParent">
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+     
+        
+    </div>
+
+
+
+</body>
+</html> -->
+
+
+
+
+<!-- ========================================== -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+        #main{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template: "b1 b2 b2 b3"
+                           " b1 b2 b2 b3"
+                           "b4 b4 b4 b4";
+
+        }
+        .box:nth-child(1){
+            border: 10px solid green;
+            grid-area: b1;
+        }
+        .box:nth-child(2){
+            border: 10px solid red;
+            grid-area: b2;
+        }
+        .box:nth-child(3){
+            border: 10px solid blue;
+            grid-area: b3;
+        }
+        .box:nth-child(4){
+            border: 10px solid yellow;
+            grid-area: b4;
+        }
+    </style>
+
+</head>
+<body>
+<div id="main">    
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>

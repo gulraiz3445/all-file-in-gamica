@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.main{
+    height: 600px;
+    width: 600px;
+    border-radius: 600px;
+    /* border: 3px solid black ; */
+    margin: auto;
+    position: relative;
+    background-color: purple;
+} 
+.c1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: auto;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* bottom: 0; */
+    animation: c1ani 4s linear 0s infinite;
+   
+
+}    
+.c2{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: orange;
+    animation: c2ani 4s linear 0s infinite;
+}  
+.m1{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    animation: m1ani 1s linear 0s infinite;
+} 
+.m2{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin: auto;
+    position: absolute;
+    background: rgb(0, 234, 255);
+    top: 0px;
+    right: 0%;
+    bottom: 0%;
+    animation: m2ani  1s linear 0s infinite;
+}
+@keyframes c1ani{
+     0%{
+         top: 0;
+     }
+    30%{
+        top: 50%;
+        left: calc(100% - 100px)
+    }
+    50%{
+        top: calc(100% - 100px);
+        left: 0%;
+    }
+    70%{
+        top: 50%;
+        left: calc(100% - 100px)
+    }
+    100%{
+        top: 0;
+    }
+}
+@keyframes c2ani{
+     0%{
+         left: 0%;
+     }
+     50%{
+         left: 80%;
+     }
+     100%{
+         left: 0%;
+     }
+}
+@keyframes m1ani{
+    0%{
+        top: 0%;
+    }
+    50%{
+        top: 60%;
+    }
+    100%{
+        top: 0%;
+    }
+}
+@keyframes m2ani{
+    0%{
+       right: 0%;
+    }
+    50%{
+        right: 70%;
+    
+    }
+    100%{
+        right: 0%;
+    }
+}
+    </style>
+</head>
+<body>
+ <div class="main">
+<div class="c1">
+    <div class="m1">
+
+    </div>
+</div>
+<div class="c2">
+    <div class="m2"></div>
+</div>
+ </div>
+</body>
+</html>

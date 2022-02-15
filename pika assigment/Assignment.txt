@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css" />
+    <title>Document</title>
+</head>
+<body>
+
+        <header>
+            <div id="logo">
+                <h4>Jmotor</h4>
+            </div>
+            <ol>
+                <li>work</li>
+                <li>testimonial</li>
+                <li>FAQ</li>
+                <li>Contact</li>
+                <li>More</li>
+            </ol>
+            <button class="btn">Learn More</button>
+        </header>
+
+        <section id="main_section">
+            <div class="left_box">A</div>
+            <div class="left_box">B</div>
+            <div class="left_box">V</div>
+            <div id='center-tag'>
+                <img src="./images/office.jpg" alt="office image" />
+            </div>
+            <div class="right_box">D</div>
+            <div class="right_box">W</div>
+            <div class="right_box">D</div>
+        </section>
+
+</body>
+</html>

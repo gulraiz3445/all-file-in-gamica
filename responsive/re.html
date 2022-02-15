@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+
+ /* @media screen and (max-width:699px) {
+
+    .box:nth-child(3){
+        display: none;
+    }
+
+     
+ }
+
+ @media screen and (max-width:549px) {
+
+    .box:nth-child(2){
+        display: none;
+    }
+     
+ } */
+
+
+.box{
+    width: 300px;
+    height: 100px;
+}
+
+.box:nth-child(1){
+    background-color: red;
+}
+
+.box:nth-child(2){
+    background-color: orange;
+}
+
+
+.box:nth-child(3){
+    background-color: blue;
+}
+
+#myFlex{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+
+/* @media screen and (max-width:699px) {
+
+    #myFlex{
+        display: block;;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    
+} */
+
+/* @media print {
+
+.box{
+    font-size: 2em;
+}
+
+.box:nth-child(3){
+    background-color: lightblue;
+}
+
+
+
+} */
+
+    </style>
+</head>
+<body>
+
+    <!-- em, px -->, text size, font-size
+    <!-- px -->,  buttons, kuch khaas images
+    <!-- vw, vh, website ka outer structure  -->
+    <!-- %, typically can be used everywhere in the layout -->
+
+    <div id="myFlex">
+        <div class="box">Bohat important</div>
+        <div class="box">less important</div>
+        <div class="box">no important</div>
+</div>
+    
+</body>
+</html>
+

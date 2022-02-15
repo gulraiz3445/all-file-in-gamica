@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image:  url(abc.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    /* position: absolute; */
+}
+nav{
+    background-color: white;
+    height: 50px;
+    width: 96vw;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;   
+    width: 50vw;
+    
+    flex-grow: 2;
+    justify-content: center;
+}
+nav ul li{
+    
+    
+    list-style: none;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    
+}
+nav button{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    margin-right: 20px;
+   margin-top: 5px;
+   border: none;
+   font-size: 13px;
+  
+}
+.logo{
+    position: relative;
+    left: 30px;
+    top: 15px;
+    font-weight: 900;
+}
+nav img{
+    border-right: 1px solid black;
+    margin-left: 20px;
+}
+.pika{
+    height: 350px;
+    width: 350px;
+    border-radius: 350px;
+    margin-left: 38%;
+    margin-top: 40px;
+    
+}
+.poki1{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 338px;
+    display: inline-block;
+}
+.poki1 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 12px;
+    left: 5px;
+}
+.poki1 h4{
+    text-align: center;
+    position: relative;
+    top: 11px;
+    left: 13px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #gridParent{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template: "c1 c2 c3 c4 c5 c5 c6 c6 c7"
+                           "c8 c2 c9 c9 c10 c11 c6 c6 c12"
+                           "c13 c13 c9 c9 c14 c11 c15 c15 c16";
+        }
+        .box{
+            border: white 1px solid;
+            background: black;
+        }
+        .box:nth-child(1){
+            grid-area: c1;
+            /* background: black; */
+        }
+        .box:nth-child(2){
+            grid-area: c2;
+            /* background: black; */
+        }
+        .box:nth-child(3){
+            grid-area: c3;
+            /* background: black; */
+        }
+        .box:nth-child(4){
+            grid-area: c4;
+            /* background: black; */
+        }
+        .box:nth-child(5){
+            grid-area: c5;
+            /* background: black; */
+        }
+        .box:nth-child(6){
+            grid-area: c6;
+            /* background: black; */
+        }
+        .box:nth-child(7){
+            grid-area: c7;
+            /* background: black; */
+        }
+        .box:nth-child(8){
+            grid-area: c8;
+            /* background: black; */
+        }
+        .box:nth-child(9){
+            grid-area: c9;
+            /* background: black; */
+        }
+        .box:nth-child(10){
+            grid-area: c10;
+            /* background: black; */
+        }
+        .box:nth-child(11){
+            grid-area: c11;
+            /* background: black; */
+        }
+        .box:nth-child(12){
+            grid-area: c12;
+            /* background: black; */
+        }
+        .box:nth-child(13){
+            grid-area: c13;
+            /* background: black; */
+        }
+        .box:nth-child(14){
+            grid-area: c14;
+            /* background: black; */
+        }
+        .box:nth-child(15){
+            grid-area: c15;
+            /* background: black; */
+        }
+        .box:nth-child(16){
+            grid-area: c16;
+            /* background: black; */
+        }
+
+    </style>
+</head>
+<body>
+    <div id="gridParent">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+        </div>
+</body>
+</html>
