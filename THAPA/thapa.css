@@ -1,0 +1,25 @@
+#text_shadow{
+    text-shadow: 2px 4px 5px blue;
+   font-size: 4em;
+
+}
+.word_wrap{
+    word-wrap: break-word;
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+.transition{
+    width: 50px; height: 50px;
+    transition-property: width, height;
+    transition-duration: 2s;
+}
+.transition:hover{
+    width: 100px; height: 100px;
+}
+.colom{
+    column-count: 4;
+    column-gap: 50px;
+    column-rule: solid;
+    text-align: justify;
+}

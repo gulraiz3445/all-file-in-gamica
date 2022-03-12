@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+height: 100vh;
+overflow: hidden;
+}
+figure{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+img{
+    height: 400px;
+    transition: all 0.5s;
+}
+figcaption{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 0;
+}
+figure:hover img{
+    transform: scale(1.1);
+}
+figure:hover figcaption{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.6);
+}
+    </style>
+</head>
+<body>
+    <div>
+    <figure>
+        <img src="m1.jpg" alt="">
+        <figcaption>
+            <h1>dssdfsd</h1>
+        </figcaption>
+    </figure>
+    </div>
+</body>
+</html>

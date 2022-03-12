@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+
+        }
+        .image{
+            position: relative;
+          width: 400px;
+        }
+        .img1{
+            display: block;
+            width: 100%;
+            
+        }
+        .overlay{
+            position: absolute;
+          top: 0;
+            left: 0;
+           width: 100%;
+           height: 100%;
+           background: rgba(0, 0, 0, 0.6);
+           color: white;
+           /* display: flex; */
+           text-align: center;
+           justify-content: center;
+           flex-direction: column;
+           opacity: 0;
+        }
+        .overlay:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+   <div class="image">
+    <img class="img1" src="m1.jpg" alt="">
+    <div class="overlay">
+        <div class="title"> brick</div>
+        <p class="discription">
+            here we have brick wall
+
+        </p>
+    </div>
+
+   </div>
+</body>
+</html>
